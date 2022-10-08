@@ -1,0 +1,10 @@
+2022-10-08 13:48:51,434 1665217131.434488  main  INFO 26638  MainProcess  139920411236160   MainThread  Application Initialized
+2022-10-08 13:48:51,514 1665217131.514757  main  WARNING 26638  MainProcess  139920411236160   MainThread  Application UI created
+2022-10-08 13:48:51,514 1665217131.514929  main  WARNING 26638  MainProcess  139920411236160   MainThread  Application Running
+2022-10-08 13:49:02,410 1665217142.410142  translateInput  INFO 26638  MainProcess  139920411236160   MainThread  Translate Button Clicked
+2022-10-08 13:49:02,410 1665217142.410502  translateInput  WARNING 26638  MainProcess  139920411236160   MainThread  Text Translated to Hindi
+2022-10-08 13:49:02,411 1665217142.411195  translateInput  WARNING 26638  MainProcess  139920411236160   MainThread  Hindi Text set to the Text Box
+2022-10-08 13:49:03,258 1665217143.258228  copyOutput  INFO 26638  MainProcess  139920411236160   MainThread  Copy Button Clicked
+2022-10-08 13:49:03,280 1665217143.280197  copyOutput  WARNING 26638  MainProcess  139920411236160   MainThread  Hindi Text Copied to Clipboard
+2022-10-08 13:49:03,994 1665217143.994626  clearInput  INFO 26638  MainProcess  139920411236160   MainThread  Clear Button Clicked
+2022-10-08 13:49:03,995 1665217143.995742  clearInput  WARNING 26638  MainProcess  139920411236160   MainThread  Text Cleared from the Boxes

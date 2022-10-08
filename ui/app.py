@@ -51,8 +51,13 @@ class MainApp(QMainWindow, UI_FirstWindow):
 
 
 def main():
+    import os
+    path = "logs"
+    isExist = os.path.exists(path)
+    if not isExist:
+        os.makedirs(path)
 
-    logging.basicConfig(filename="logs.log",
+    logging.basicConfig(filename="logs/debug.log",
                             format='%(asctime)s %(created)f  %(funcName)s  %(levelname)s %(process)d  %(processName)s  %(thread)d   %(threadName)s  %(message)s',
                             filemode='a')
 
