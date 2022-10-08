@@ -110,7 +110,7 @@
        <bool>true</bool>
       </property>
       <property name="autoFillBackground">
-       <bool>true</bool>
+       <bool>false</bool>
       </property>
       <property name="styleSheet">
        <string notr="true">color: #073B4C;</string>
@@ -230,17 +230,8 @@ color: rgb(28, 49, 68);</string>
      <property name="frameShadow">
       <enum>QFrame::Raised</enum>
      </property>
-     <property name="undoRedoEnabled">
-      <bool>true</bool>
-     </property>
-     <property name="backgroundVisible">
-      <bool>true</bool>
-     </property>
-     <property name="centerOnScroll">
-      <bool>true</bool>
-     </property>
     </widget>
-    <widget class="QPlainTextEdit" name="hinTxt">
+    <widget class="QTextEdit" name="hinTxt">
      <property name="geometry">
       <rect>
        <x>380</x>
@@ -267,15 +258,6 @@ color: rgb(28, 49, 68);</string>
      </property>
      <property name="frameShadow">
       <enum>QFrame::Raised</enum>
-     </property>
-     <property name="readOnly">
-      <bool>true</bool>
-     </property>
-     <property name="backgroundVisible">
-      <bool>true</bool>
-     </property>
-     <property name="centerOnScroll">
-      <bool>true</bool>
      </property>
     </widget>
     <widget class="QPushButton" name="translateBtn">
